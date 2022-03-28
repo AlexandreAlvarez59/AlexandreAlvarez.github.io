@@ -2971,6 +2971,9 @@ input, select, textarea {
 					width: calc(50% - 6rem);
 					border-top: solid 2px;
 				}
+				header.major > .separator:before, header.major > .separator:after {
+					width: calc(40% - 6rem);
+				}
 
 				header.major > .date:before {
 					left: 0;
